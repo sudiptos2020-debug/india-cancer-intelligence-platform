@@ -1,0 +1,180 @@
+openapi: 3.1.0
+info:
+  title: India Cancer Intelligence Platform API
+  version: 1.0.0
+  description: Auto-generated minimal OpenAPI specification for ICIP v1
+servers:
+  - url: http://localhost:8000
+paths:
+  /api/v1/health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+  /api/v1/incidence:
+    get:
+      summary: Get incidence metrics
+      parameters:
+        - in: query
+          name: state
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Incidence list
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IncidenceList'
+  /api/v1/mortality:
+    get:
+      summary: Get mortality metrics
+      responses:
+        '200':
+          description: Mortality list
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MortalityList'
+  /api/v1/trends:
+    get:
+      summary: Get trends
+      responses:
+        '200':
+          description: Trends list
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrendsList'
+  /api/v1/survival:
+    get:
+      summary: Get survival curve
+      responses:
+        '200':
+          description: Survival
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Survival'
+  /api/v1/screening:
+    get:
+      summary: Get screening metrics
+      responses:
+        '200':
+          description: Screening
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Screening'
+  /api/v1/access:
+    get:
+      summary: Get access metrics
+      responses:
+        '200':
+          description: Access
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Access'
+  /api/v1/hotspots:
+    get:
+      summary: Get hotspots
+      responses:
+        '200':
+          description: Hotspots
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Hotspots'
+  /api/v1/dashboard:
+    get:
+      summary: Get dashboard payload
+      responses:
+        '200':
+          description: Dashboard
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dashboard'
+components:
+  schemas:
+    IncidenceItem:
+      type: object
+      properties:
+        cancer_site: { type: string }
+        year: { type: integer }
+        cases: { type: integer }
+        asr: { type: number }
+    IncidenceList:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/IncidenceItem'
+    MortalityItem:
+      type: object
+      properties:
+        cancer_site: { type: string }
+        year: { type: integer }
+        deaths: { type: integer }
+    MortalityList:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/MortalityItem'
+    TrendsList:
+      type: object
+      properties:
+        series:
+          type: array
+          items:
+            type: object
+            properties:
+              period: { type: string }
+              value: { type: number }
+    Survival:
+      type: object
+      properties:
+        survival_curve:
+          type: array
+          items:
+            type: object
+            properties:
+              months: { type: integer }
+              survival: { type: number }
+    Screening:
+      type: object
+      properties:
+        coverage: { type: number }
+    Access:
+      type: object
+      properties:
+        oop_median: { type: number }
+    Hotspots:
+      type: object
+      properties:
+        hotspots:
+          type: array
+          items:
+            type: object
+            properties:
+              region: { type: string }
+              score: { type: number }
+    Dashboard:
+      type: object
+      properties:
+        widgets:
+          type: array
+          items:
+            type: object
