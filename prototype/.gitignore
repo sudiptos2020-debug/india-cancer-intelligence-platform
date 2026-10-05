@@ -1,0 +1,9 @@
+*.pdf
+*.xlsx
+*.xls
+*.docx
+*.zip
+.DS_Store
+Thumbs.db
+work/
+tmp/
