@@ -1,0 +1,60 @@
+"Top 5 Leading Cancer Sites by Age Group & Sex — India, 2022",,,,,
+"Source: ICMR-NCDIR NCRP (Sathishkumar et al., IJMR 2025).",,,,,
+,,,,,
+Age Group,Sex,Rank,Cancer Site,Cases,Share of age-group total (%)
+0-14 yr,Male,1,Lymphoid leukaemia (C91),6233,29.3
+0-14 yr,Male,2,Brain and NS (C70-C72),2643,12.4
+0-14 yr,Male,3,"NHL (C82-86, C96)",1679,7.9
+0-14 yr,Male,4,Hodgkin's disease (C81),1513,7.1
+0-14 yr,Male,5,Myeloid leukaemia (C92-C94),1498,7
+0-14 yr,Male,-,Other sites,7742,36.3
+0-14 yr,Male,-,ALL SITES TOTAL,21308,100
+0-14 yr,Female,1,Lymphoid leukaemia (C91),3328,24.3
+0-14 yr,Female,2,Brain and NS (C70-C72),1956,14.3
+0-14 yr,Female,3,Bone (C40-C41),1140,8.3
+0-14 yr,Female,4,Myeloid leukaemia (C92-C94),1099,8
+0-14 yr,Female,5,"NHL (C82-86, C96)",783,5.7
+0-14 yr,Female,-,Other sites,5403,39.4
+0-14 yr,Female,-,ALL SITES TOTAL,13709,100
+15-39 yr,Male,1,Mouth (C03-C06),9013,12
+15-39 yr,Male,2,Tongue (C01-C02),6597,8.8
+15-39 yr,Male,3,Brain and NS (C70-C72),5230,7
+15-39 yr,Male,4,Myeloid leukaemia (C92-C94),4881,6.5
+15-39 yr,Male,5,"NHL (C82-86, C96)",4444,5.9
+15-39 yr,Male,-,Other sites,44707,59.7
+15-39 yr,Male,-,ALL SITES TOTAL,74872,100
+15-39 yr,Female,1,Breast (C50),25710,27.3
+15-39 yr,Female,2,Thyroid (C73),11453,12.2
+15-39 yr,Female,3,Ovary (C56),6877,7.3
+15-39 yr,Female,4,Cervix (C53),6714,7.1
+15-39 yr,Female,5,Myeloid leukaemia (C92-C94),3503,3.7
+15-39 yr,Female,-,Other sites,39909,42.4
+15-39 yr,Female,-,ALL SITES TOTAL,94166,100
+40-64 yr,Male,1,Lung (C33-34),37376,11
+40-64 yr,Male,2,Mouth (C03-C06),37067,10.9
+40-64 yr,Male,3,Tongue (C01-C02),24951,7.3
+40-64 yr,Male,4,Oesophagus (C15),18390,5.4
+40-64 yr,Male,5,Stomach (C16),17741,5.2
+40-64 yr,Male,-,Other sites,205705,60.3
+40-64 yr,Male,-,ALL SITES TOTAL,341230,100
+40-64 yr,Female,1,Breast (C50),140384,33
+40-64 yr,Female,2,Cervix (C53),52560,12.3
+40-64 yr,Female,3,Ovary (C56),27562,6.5
+40-64 yr,Female,4,Corpus uteri (C54),18108,4.3
+40-64 yr,Female,5,Lung (C33-34),14341,3.4
+40-64 yr,Female,-,Other sites,172963,40.6
+40-64 yr,Female,-,ALL SITES TOTAL,425918,100
+65+ yr,Male,1,Lung (C33-34),36013,13.1
+65+ yr,Male,2,Prostate (C61),33695,12.3
+65+ yr,Male,3,Oesophagus (C15),14668,5.3
+65+ yr,Male,4,Stomach (C16),14435,5.3
+65+ yr,Male,5,Mouth (C03-C06),14035,5.1
+65+ yr,Male,-,Other sites,161920,58.9
+65+ yr,Male,-,ALL SITES TOTAL,274766,100
+65+ yr,Female,1,Breast (C50),49946,23.2
+65+ yr,Female,2,Cervix (C53),19814,9.2
+65+ yr,Female,3,Lung (C33-34),11793,5.5
+65+ yr,Female,4,Ovary (C56),11188,5.2
+65+ yr,Female,5,Mouth (C03-C06),9060,4.2
+65+ yr,Female,-,Other sites,113657,52.8
+65+ yr,Female,-,ALL SITES TOTAL,215458,100

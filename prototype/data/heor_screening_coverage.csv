@@ -1,0 +1,6 @@
+CancerType,ScreeningMethod,ParticipationRate,TargetAgeGroup,ProgrammeName,Source,SourceURL
+Cervical,Visual Inspection with Acetic Acid (VIA),0.019,30-65 yrs (women),"NPCDCS / NP-NCD 2023-30, Ayushman Bharat HWCs","Enhancing screening..., BMJ Open/PMC, 2025",https://pmc.ncbi.nlm.nih.gov/articles/PMC13289075/
+Breast,Clinical Breast Examination (CBE),0.009,30-65 yrs (women),"NPCDCS / NP-NCD 2023-30, Ayushman Bharat HWCs","Enhancing screening..., BMJ Open/PMC, 2025",https://pmc.ncbi.nlm.nih.gov/articles/PMC13289075/
+Oral cavity,Oral visual examination,0.009,30+ yrs (all adults),"NPCDCS / NP-NCD 2023-30, Ayushman Bharat HWCs","Enhancing screening..., BMJ Open/PMC, 2025",https://pmc.ncbi.nlm.nih.gov/articles/PMC13289075/
+Cervical / Breast,National screening participation (either),<0.10,30+ yrs,"NPCDCS / Ayushman Bharat, national aggregate","Why Cancer Screening Rates Remain Low in India, 2026",https://andromedahospital.in/blog/cancer-screening-rates-low-india-government-programs
+Lung,No dedicated national population-based screening programme,n/a,n/a,Opportunistic / clinical only — not part of NPCDCS 3-cancer panel,Author synthesis from NPCDCS programme scope,https://pmc.ncbi.nlm.nih.gov/articles/PMC13289075/
