@@ -1,0 +1,19 @@
+Key National Cancer Indicators — India,,
+"Source: ICMR-NCDIR NCRP (Sathishkumar et al., IJMR 2025); GLOBOCAN 2020 (Sung et al., CA Cancer J Clin 2021).",,
+,,
+Indicator,Value,Note
+"Total estimated incident cancer cases, 2020",1392179,NCRP estimate
+"Total estimated incident cancer cases, 2022",1461427,"Crude rate 100.4 / 100,000"
+"Total projected incident cancer cases, 2025",1568671,"Male 763,575 + Female 806,218 + est. residual"
+"Increase in cases, 2020→2025",12.8%,NCRP projection
+"Increase in cases, 2015→2025 (both sexes)",27.7%,NCRP projection
+"Lifetime cumulative risk of cancer (0-74 yr), both sexes",1 in 9,NCRP 2022 estimate
+"Lifetime risk — lung cancer, males",1 in 67,NCRP 2022 estimate
+"Lifetime risk — breast cancer, females",1 in 29,NCRP 2022 estimate
+"Leading cancer site, males (2022)",Lung (10.6% of male cases),NCRP 2022 estimate
+"Leading cancer site, females (2022)",Breast (28.8% of female cases),NCRP 2022 estimate
+"Leading childhood cancer (0-14 yr), both sexes","Lymphoid leukaemia (~29% boys, ~24% girls)",NCRP 2022 estimate
+Number of Population-Based Cancer Registries (PBCRs) used,28,Data period 2012-2016
+NCRP population coverage (national),16.4%,Urban 31.6%; Rural 9.5%
+India's global cancer incidence rank (2020),"3rd (after China, USA)",GLOBOCAN 2020
+Global rank check — GLOBOCAN 2020 India incidence estimate,~1.32 million (2020),GLOBOCAN methodology differs from NCRP by ~5%
